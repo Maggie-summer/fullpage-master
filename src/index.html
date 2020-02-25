@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <style>
+    @media screen and (max-width: 600px) {
+      .-arrow {
+        width: 15px;
+        &:before {
+          border-width: 2px;
+          right: -12px;
+        }
+        &:after {
+          border-width: 2px;
+        }
+      }
+    }
+  </style>
+  <body>
+    <div id="fullpage">
+      <div style="background: rgb(97, 12, 12)">1</div>
+      <div style="background: rgb(41, 167, 104)">2</div>
+      <div style="background: rgb(29, 109, 179)">3</div>
+      <div style="background: rgb(100, 133, 8)">4</div>
+      <div style="background: rgb(165, 6, 131)">5</div>
+    </div>
+  </body>
+</html>
